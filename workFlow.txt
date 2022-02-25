@@ -1,0 +1,3 @@
+WORK TO DO IN home.html
+//edit navbar content's fonts
+//edit toggle menu
