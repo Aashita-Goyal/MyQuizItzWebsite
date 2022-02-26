@@ -110,3 +110,14 @@ body {
 footer{
   /*width: 1250px;*/
 }
+
+img {
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
