@@ -8,84 +8,93 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="CSS/style1.css" />
+    <link rel="stylesheet" href="CSS/style1.css"/>
   </head>
-
+  
   <body>
-    
     <nav class="navbar navbar-expand-md bg-gradient-secondary" style="background-color: #219f94" id="grad">
         <div class = "padLogo"></div>
             <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
-              </div>
-
-        
-        
-          
-          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-          
-          <script>
-          function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-          }
-          
-          function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-          }
-          </script>
-      <div class="container">
-        <a class="navbar-brand" href="">
-          <h3 class="logo" style="color: #655d8a">QuizItz</h3>
-        </a>
-        <ul class="nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Help</a>
-          </li>
-        </ul>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href=""
-              >Settings
-              <img
-                src="https://img.icons8.com/small/128/000000/settings.png"
-                class="icons"
-            /></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href=""
-              >Profile
-              <img
-                src="https://img.icons8.com/glyph-neue/64/000000/lifecycle.png"
-                class="icons"
-            /></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href=""
-              >Logout
-              <img
-                src="https://img.icons8.com/ios/100/000000/shutdown--v1.png"
-                class="icons"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </div>
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#">Home</a>
+              <a href="#">Subjects</a>
+              <a href="#">Create</a>
+              <a href="#">Attempt</a>
+              <a href="#">Profile</a>
+              <a href="#">About Us</a>
+              <a href="#">Help</a>
+              <a href="#">Contact</a>
+            </div>  
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
+            <script>
+              function openNav() 
+              {
+                document.getElementById("mySidenav").style.width = "250px";
+              }
+              function closeNav() 
+              {
+                document.getElementById("mySidenav").style.width = "0";
+              }
+            </script>
+            <div class="container">
+              <a class="navbar-brand" href="">
+                <h3 class="logo" style="color: #655d8a">QuizItz</h3>
+              </a>
+              <ul class="nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Help</a>
+                </li>
+              </ul>
+              <ul ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="">Settings
+                  <img src="https://img.icons8.com/small/128/000000/settings.png" class="icons"/>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Profile
+                  <img src="https://img.icons8.com/glyph-neue/64/000000/lifecycle.png" class="icons"/>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Logout
+                  <img src="https://img.icons8.com/ios/100/000000/shutdown--v1.png" class="icons"/>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
     </nav>
+    <div>
 
-
+    </div>
+    <footer>
+      <div class="row" style="background-color: #219F94; color: rgb(0, 0, 0); padding-top: 50px; padding-bottom: 50px;">
+        <div class="col-3">
+        </div>
+        <div class="col-6" style="text-align: center;">
+            <h5>Follow Us</h5>
+            <a href=""><img src="https://img.icons8.com/ios-glyphs/60/000000/facebook-new.png" class="icons"/></a>
+            <a href=""><img src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png" class="icons"/></a>
+            <a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" class="icons"/></a>
+            <br>
+            <p>© 2022 QuizItz Inc</p>
+        </div>
+        <div class="col-3">
+        </div>
+    </div>
+    </footer>
+  </body>
+</html>
     <!--Toggle Bar-->
   <!--<div class="navbar navbar-light bg-light">
       <button
@@ -210,5 +219,3 @@
         </a>
       </div>
 --> 
-  </body>
-</html>
