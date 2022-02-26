@@ -132,3 +132,7 @@ img {
   margin-right: auto;
   width: 25%;
 }
+
+.sr-only{
+  color: black;
+}
