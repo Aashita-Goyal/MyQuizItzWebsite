@@ -1,3 +1,10 @@
 WORK TO DO IN home.html
 //edit navbar content's fonts
-//edit toggle menu
+//edit toggle menu, color
+//Navbar edit
+//see colors
+//responsiveness
+
+
+
+//Login Page - forgot password, register - hyperlinks - REMOVE underline
