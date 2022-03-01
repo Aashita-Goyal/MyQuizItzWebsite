@@ -53,8 +53,8 @@
   .carouselDimensions{
       width: 700px;
       padding: 30px;
-      padding-left: 100px;
-      margin-left: 270px;
+     /* padding-left: 100px;
+      margin-left: 270px;*/
   } 
 
   * {
