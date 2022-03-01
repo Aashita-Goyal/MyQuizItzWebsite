@@ -134,3 +134,16 @@ img {
   width: 25%;
 }
 
+
+.next__div{
+  border-color: #000;
+  border-width: 20px;
+  background-image: url('https://media.istockphoto.com/photos/modern-brick-wall-3d-rendering-picture-id1140265911?k=20&m=1140265911&s=170667a&w=0&h=EixAdYsUU9EfjZYkIi2nE5EpXUGfDJrBZlFPyrKSM0A=');
+  min-height: 400px;
+}
+
+.arrow{
+  color: black;
+  height: 40px;
+}
+
