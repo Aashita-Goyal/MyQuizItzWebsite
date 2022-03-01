@@ -44,14 +44,13 @@
   }
   
   body {
-   /* max-width: 37.5rem;
-    padding: 0 1.25rem; */
+    max-width: 37.5rem;
+    padding: 0 1.25rem; 
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
-    max-width: 80rem;
+   /* max-width: 80rem;
     padding-left: 25px;
-    padding-right: 25px;
-  }
+    padding-right: 25px; */  }
   
  /* .carouselDimensions{
       width: 900px;

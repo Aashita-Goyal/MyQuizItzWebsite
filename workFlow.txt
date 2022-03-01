@@ -8,6 +8,7 @@
 //edit navbar content's fonts
 //edit toggle menu, color
 //Navbar edit
+//carousel width
 
 
 
