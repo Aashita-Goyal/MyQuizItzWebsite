@@ -1,10 +1,18 @@
-WORK TO DO IN home.html
+****GENERAL****
+//see colors
+//responsiveness
+//footer
+
+
+****WORK TO DO IN home.html****
 //edit navbar content's fonts
 //edit toggle menu, color
 //Navbar edit
-//see colors
-//responsiveness
+//carousel width
 
 
 
-//Login Page - forgot password, register - hyperlinks - REMOVE underline
+
+****Login Page****
+//forgot password, register - hyperlinks - REMOVE underline
+//login page user icon edit
