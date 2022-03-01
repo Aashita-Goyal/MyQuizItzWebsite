@@ -7,6 +7,7 @@
 body{
     font-family: 'Merriweather', serif;
     background-color: #ebf2ff;
+    height: 100px;
 }
 .main /* for class */
 {
@@ -133,6 +134,3 @@ img {
   width: 25%;
 }
 
-.sr-only{
-  color: black;
-}
