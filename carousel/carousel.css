@@ -67,8 +67,8 @@
       to bottom,
       rgba(33, 159, 148, 0.52),
       rgba(232, 232, 166, 0.73)
-    ),
-    url('/assets/Images/img2.jpg');
+    )/*,
+    url('/assets/Images/img2.jpg')*/;
   }
 
   .carouselLeftContainer{
