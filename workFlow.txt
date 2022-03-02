@@ -9,6 +9,7 @@
 //edit toggle menu, color
 //Navbar edit
 //carousel width
+//left container arrangement
 
 
 

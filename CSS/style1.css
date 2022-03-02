@@ -112,9 +112,6 @@ footer{
   /*width: 1250px;*/
 }
 
-img {
-  border-radius: 50%;
-}
 
 .center {
   display: block;
@@ -123,15 +120,8 @@ img {
   width: 30%;
 }
 
-img {
-  border-radius: 50%;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
+.btn{
+  margin-top: 100px;
 }
 
 
