@@ -18,11 +18,11 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
-nav img {
+/*nav img {
 
 }
 .nav-links{
-  /* flex:  1;
+   flex:  1;
   text-align: right;
   width:80%;
   height: 60px;
@@ -30,8 +30,9 @@ nav img {
   align-items: center;
   background: rgba(29,33,61,0.5);
   padding: 0 80px;
-  box-sizing: border-box; */
-}
+  box-sizing: border-box; 
+}*/
+
 .nav-links ul li{
   list-style: none;
   display: inline-block;
@@ -94,7 +95,9 @@ nav img {
   transition: 1s;
 
 }
-@@media (max-width : 700px) {
+
+
+@media (max-width : 700px) {
 
   .text-box h1{
     font-size: 20px;
