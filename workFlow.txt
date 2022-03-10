@@ -24,3 +24,34 @@
 
 TELL SAKSHI AND APARNA
 //save links of images you are adding
+
+
+
+
+
+
+
+
+
+
+//PAGES DONE
+Index
+Contact
+About
+Login
+register
+
+
+//PAGES LEFT
+home
+Branch/subject page
+Create quiz page
+Attempt quiz page
+Study material page
+Profile page
+Placement material page (will inlcude placement quiz and material) 
+Topics page
+Settings page
+
+Any other page you find necessary
+
