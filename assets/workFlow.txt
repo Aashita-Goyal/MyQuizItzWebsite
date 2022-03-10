@@ -43,7 +43,7 @@ register
 
 
 //PAGES LEFT
-home
+Home
 Branch/subject page
 Create quiz page
 Attempt quiz page
