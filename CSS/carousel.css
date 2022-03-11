@@ -136,7 +136,6 @@ ol, li {
   counter-reset: item;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-  margin-right: 15px;
 }
 
 .carousel__slide {
