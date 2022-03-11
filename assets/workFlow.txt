@@ -55,3 +55,21 @@ Settings page
 
 Any other page you find necessary
 
+
+
+
+
+
+
+
+
+
+
+//10th march - aditi, aashita
+* decide pages' layout
+* home page corrections
+* theme change
+* php
+* register page corrections ✔️
+* about page ✔️
+* contact page ✔️

@@ -136,6 +136,7 @@ ol, li {
   counter-reset: item;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  margin-right: 15px;
 }
 
 .carousel__slide {
@@ -226,15 +227,15 @@ ol, li {
 
 /* CAROUSEL ARROW BUTTONS */
 
-/* .carousel::before,
+.carousel::before,
 .carousel::after,
 .carousel__prev,
 .carousel__next {
   position: absolute;
   top: 0;
   margin-top: 37.5%;
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
   transform: translateY(-50%);
   border-radius: 50%;
   font-size: 0;
@@ -272,4 +273,4 @@ ol, li {
 
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
-}*/
+}
