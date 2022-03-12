@@ -10,6 +10,7 @@ body{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .nav a /* for element in class */
 {
    color: #000;
@@ -42,3 +43,5 @@ label
     text-align: start;
 
 }
+
+
