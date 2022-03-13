@@ -20,17 +20,19 @@ body{
 
 .navbar{
 width: 100%;
+background-color: #1F1D36;
+color: white;
 }
 
 .nav a /* for element in class */
 {
- color: #000;
+ color: white;
 }
 
-#grad
+/*#grad
 {
-  background-image: linear-gradient(to right, #219F94 , #E8E8A6);
-}
+  background-image: linear-gradient(to right, #3F3351 , #B67C9A);
+}*/
 
 .icons
 {
@@ -283,4 +285,24 @@ h3,h4
   border: 1px solid #ffffff;
   background: #000000;
   color: #fff;
+}
+
+.card__text{
+ /* border: 2px solid white;
+  border-radius: 6px;
+  width: 6px;
+  background-color: #ebf2ff; */
+  color: white;
+}
+
+footer{
+  text-align: center; 
+  background-color: #3F3351; 
+  color: rgb(0, 0, 0); 
+  padding-top: 50px; 
+  padding-bottom: 50px;
+}
+
+footer p, h5{
+  color: white;
 }
