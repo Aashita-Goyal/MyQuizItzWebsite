@@ -88,6 +88,18 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
+.logo{
+ /* background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+             -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text; */
+  background: linear-gradient(
+              to right, #73436D, #B67C9A,
+              #864879, #C197D2);
+               -webkit-text-fill-color: transparent;
+               -webkit-background-clip: text;
+}
 
 .main1
 {
@@ -97,9 +109,9 @@ body {
 }
 
 .btn{
-background-color: #C1DEAE;
+/*background-color: #B67C9A;*/
 border-radius: 50px;
-border-color: #219F94;
+border-color: #3F3351;
 border-width: 2px;
 margin-left: 210px;
 }
@@ -172,6 +184,7 @@ p{
   box-sizing: border-box;
   transition: 0.5s;
   height: 230px;
+  display: inline-block;
 }
 h3,h4
 {
@@ -292,7 +305,7 @@ h3,h4
   border-radius: 6px;
   width: 6px;
   background-color: #ebf2ff; */
-  color: white;
+  width: 50%;
 }
 
 footer{
