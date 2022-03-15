@@ -20,16 +20,19 @@ body{
 
 .navbar{
 width: 100%;
+background-color: #1F1D36;
+color: white;
 }
 
 .nav a /* for element in class */
 {
- color: #000;
+  color: white; 
 }
 
-#grad{
-  background-image: linear-gradient(to right, #219F94 , #E8E8A6);
-}
+/*#grad
+{
+  background-image: linear-gradient(to right, #3F3351 , #B67C9A);
+}*/
 
 .icons
 {
@@ -41,7 +44,8 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.padLogo{
+.padLogo
+{
     padding-left: 5px;
     margin-left: 20px;
 }
@@ -69,7 +73,8 @@ body {
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #3c13f3;
+  text-shadow: #000000;
 }
 
 .sidenav .closebtn {
@@ -85,6 +90,18 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
+.logo{
+ /* background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+             -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text; */
+  background: linear-gradient(
+              to right, #73436D, #B67C9A,
+              #864879, #C197D2);
+               -webkit-text-fill-color: transparent;
+               -webkit-background-clip: text;
+}
 
 .main1
 {
@@ -94,9 +111,9 @@ body {
 }
 
 .btn{
-background-color: #C1DEAE;
+/*background-color: #B67C9A;*/
 border-radius: 50px;
-border-color: #219F94;
+border-color: #3F3351;
 border-width: 2px;
 margin-left: 210px;
 }
@@ -131,4 +148,133 @@ min-height: 400px;
 .arrow{
 color: black;
 height: 40px;
+}
+
+.course{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h1
+{
+  font-size: 36px;
+  font-weight: 600;
+
+}
+p{
+  color:#000000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+
+}
+.row
+{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.course-col-2
+{
+  flex-basis: 20%;
+  background: #E8E8A6;
+  border-radius: 10px;
+  margin-bottom: 10%;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  height: 230px;
+  display: inline-block;
+}
+h3,h4
+{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.course-col-2:hover
+{
+  box-shadow:  0 0 20px 0px #064420;
+}
+
+.offer{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.offer-col-2
+{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  position: relative;
+
+}
+.offer-col-2 img
+{
+  width:100%;
+}
+
+.facilities{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.cta{
+  margin: 100px auto;
+  width: 80%;
+  background: linear-gradient(to bottom, #9999ff 0%, #ffccff 100%);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.cta h1{
+  color: #000000;
+  margin-bottom: 40px;
+  padding: 0px;
+}
+
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover{
+  border: 1px solid #ffffff;
+  background: #000000;
+  color: #fff;
+}
+
+.card__text{
+ /* border: 2px solid white;
+  border-radius: 6px;
+  width: 6px;
+  background-color: #ebf2ff; */
+  width: 50%;
+}
+
+footer{
+  text-align: center; 
+  background-color: #3F3351; 
+  color: rgb(0, 0, 0); 
+  padding-top: 50px; 
+  padding-bottom: 50px;
+}
+
+footer p, h5{
+  color: white;
 }
