@@ -20,17 +20,19 @@ body{
 
 .navbar{
 width: 100%;
+background-color: #1F1D36;
+color: white;
 }
 
 .nav a /* for element in class */
 {
- color: #000;
+ color: white;
 }
 
-#grad
+/*#grad
 {
-  background-image: linear-gradient(to right, #219F94 , #E8E8A6);
-}
+  background-image: linear-gradient(to right, #3F3351 , #B67C9A);
+}*/
 
 .icons
 {
@@ -88,6 +90,18 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
+.logo{
+ /* background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+             -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text; */
+  background: linear-gradient(
+              to right, #73436D, #B67C9A,
+              #864879, #C197D2);
+               -webkit-text-fill-color: transparent;
+               -webkit-background-clip: text;
+}
 
 .main1
 {
@@ -97,9 +111,9 @@ body {
 }
 
 .btn{
-background-color: #C1DEAE;
+/*background-color: #B67C9A;*/
 border-radius: 50px;
-border-color: #219F94;
+border-color: #3F3351;
 border-width: 2px;
 margin-left: 210px;
 }
@@ -172,6 +186,7 @@ p{
   box-sizing: border-box;
   transition: 0.5s;
   height: 230px;
+  display: inline-block;
 }
 h3,h4
 {
@@ -242,4 +257,24 @@ h3,h4
   border: 1px solid #ffffff;
   background: #000000;
   color: #fff;
+}
+
+.card__text{
+ /* border: 2px solid white;
+  border-radius: 6px;
+  width: 6px;
+  background-color: #ebf2ff; */
+  width: 50%;
+}
+
+footer{
+  text-align: center; 
+  background-color: #3F3351; 
+  color: rgb(0, 0, 0); 
+  padding-top: 50px; 
+  padding-bottom: 50px;
+}
+
+footer p, h5{
+  color: white;
 }
