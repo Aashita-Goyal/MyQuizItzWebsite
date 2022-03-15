@@ -14,7 +14,7 @@
 
   .navbar{
     width: 100%;
-    background-color: #1F1D36;
+    background-color: #3F3351;
     color: #ebf2ff;
     }
 
@@ -72,12 +72,7 @@
 
       /*Footer*/
 
-  footer{
-    width: 100%;
-    background-color: #1F1D36;
-    color: #ebf2ff;
-  }
-  /*  .container-fluid{
+  .container-fluid{
   text-align: center; 
   background-color: #3F3351; 
   color: rgb(0, 0, 0); 
@@ -87,4 +82,4 @@
 
 .container-fluid p, h5{
   color: white;
-}*/
+}
