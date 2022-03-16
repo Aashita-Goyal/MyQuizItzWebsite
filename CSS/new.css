@@ -1,1 +1,41 @@
+.topic__bar{
+    border-color: black;
+}
 
+.topic__name{
+    border-color: black;
+}
+
+.placement__list div{
+    border-color: black;
+    border-width: 20px;
+}
+
+.topic__bar{
+    background-color: azure;
+    margin-bottom: 15px;
+}
+
+.topic__name{
+    background-color: chartreuse;
+    width: 500px;
+    height: 40px;
+}
+
+.topic__choices{
+    background-color: darkgray;
+    width: 500px;
+    height: 40px;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 7px;
+}
+
+
+.topic__option__1, .topic__option__2, .topic__option__3{
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin: 1px;
+    width: 30%;
+}
