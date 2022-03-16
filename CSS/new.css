@@ -6,26 +6,34 @@
     border-color: black;
 }
 
+.placement__list{
+    text-align: center;
+}
+
 .placement__list div{
     border-color: black;
     border-width: 20px;
+    text-align: center;
 }
 
 .topic__bar{
     background-color: azure;
     margin-bottom: 15px;
+    margin: 10px;
 }
 
 .topic__name{
-    background-color: chartreuse;
+    background-color: #864879;
     width: 500px;
-    height: 40px;
+    height: 45px;
+    text-align: center;
+    padding-top: 8px;
 }
 
 .topic__choices{
     background-color: darkgray;
-    width: 500px;
-    height: 40px;
+    width: 600px;
+    height: 45px;
     justify-content: center;
     justify-content: space-between;
     justify-content: space-around;
@@ -34,8 +42,8 @@
 
 
 .topic__option__1, .topic__option__2, .topic__option__3{
-    background-color: blueviolet;
     border-radius: 20px;
     margin: 1px;
-    width: 30%;
+    width: 32%;
+    height: 30px;
 }
