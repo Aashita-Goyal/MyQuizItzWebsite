@@ -113,6 +113,7 @@
         .nav-item{
             font-size:xx-small;
             margin-top: 10px;
+            font-size: 10px;
         }
     
       .nav-link{
@@ -272,3 +273,16 @@
       color: white;
     }
 }
+
+
+
+
+
+
+/*
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+  
+*/
+
