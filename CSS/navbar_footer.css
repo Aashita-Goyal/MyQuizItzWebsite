@@ -91,6 +91,13 @@
 
 
 
+.icons{
+  width: 15px;
+  height: 15px;
+}
+
+
+
 
 
 
@@ -113,6 +120,7 @@
         .nav-item{
             font-size:xx-small;
             margin-top: 10px;
+            font-size: 10px;
         }
     
       .nav-link{
@@ -271,4 +279,24 @@
     .container-fluid p, h5{
       color: white;
     }
+
+    
+    .icons{
+      width: 20px;
+      height: 20px;
+    }
+    
 }
+
+
+
+
+
+
+/*
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+  
+*/
+
