@@ -292,7 +292,6 @@ footer p, h5{
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  margin: 0;
   /*background-image: url("https://images5.alphacoders.com/394/thumb-1920-394862.jpg");*/
 }
 .quiz-container{
@@ -301,6 +300,9 @@ footer p, h5{
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
   width: 600px;
   overflow: hidden;
+  margin-left: 300px;
+  margin-top: 150px;
+  margin-bottom: 300px;
 }
 .quiz-header{
   padding: 4rem;
