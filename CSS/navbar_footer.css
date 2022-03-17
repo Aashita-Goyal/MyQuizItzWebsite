@@ -91,6 +91,13 @@
 
 
 
+.icons{
+  width: 15px;
+  height: 15px;
+}
+
+
+
 
 
 
@@ -272,6 +279,13 @@
     .container-fluid p, h5{
       color: white;
     }
+
+    
+    .icons{
+      width: 20px;
+      height: 20px;
+    }
+    
 }
 
 
