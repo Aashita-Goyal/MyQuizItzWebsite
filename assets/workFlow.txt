@@ -73,3 +73,13 @@ Any other page you find necessary
 * register page corrections ✔️
 * about page ✔️
 * contact page ✔️
+
+
+
+
+
+
+
+
+
+Add responsiveness everywhere

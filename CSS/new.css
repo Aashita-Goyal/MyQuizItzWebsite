@@ -84,7 +84,7 @@
     
     .topic__name{
         background-color: #864879;
-        width: 500px;
+        width: 350px;
         height: 45px;
         text-align: center;
         padding-top: 8px;
@@ -92,19 +92,37 @@
     
     .topic__choices{
         background-color: darkgray;
-        width: 600px;
+        width: 850px;
         height: 45px;
         justify-content: center;
         justify-content: space-between;
         justify-content: space-around;
         padding: 7px;
+        font-size: smaller;
+        text-decoration: none;
     }
     
     
-    .topic__option__1, .topic__option__2, .topic__option__3{
+    .topic__option__1, .topic__option__2, .topic__option__3, .topic__option__4, .topic__option__5{
         border-radius: 20px;
         margin: 1px;
         width: 32%;
         height: 30px;
     }
+
+    .topic__search{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .topic__new__heading{
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 50px;
+    }
+
+    .topic__new__form{
+        margin-left: 250px;
+    }
+
 }
