@@ -228,4 +228,24 @@
         font-size: 25px;
     }
 
+    .profile__container{
+
+    }
+    
+    .profile__logo{
+        margin-left: 300px;
+        border-radius: 100px;
+    }
+
+    .profile__logo img{
+        
+    }
+
+    .your__details{
+
+    }
+
+    .your__progress{
+        
+    }
 }
