@@ -24,13 +24,11 @@
   .nav-link{
       color: #ebf2ff;
   }
-                 .logo{
-                    background: linear-gradient(
-                                to right, #73436D, #B67C9A,
-                                #864879, #C197D2);
-                                 -webkit-text-fill-color: transparent;
-                                 -webkit-background-clip: text;
-                  }      
+  .logo{
+      background: linear-gradient(to right, #73436D, #B67C9A,#864879, #C197D2);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }      
     
     .padLogo{
         background-color: #ebf2ff;
@@ -69,11 +67,8 @@
       font-size: 36px;
       margin-left: 50px;
     }
-    
-    
 
-
-      /*Footer*/
+    /*Footer*/
 
   .container-fluid{
   text-align: center; 
@@ -88,19 +83,10 @@
   margin: 40px;
 }
 
-
-
 .icons{
   width: 15px;
   height: 15px;
 }
-
-
-
-
-
-
-
 
 @media (min-width: 768px) {
     body{
