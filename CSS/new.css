@@ -179,6 +179,14 @@
         padding-right: 130px ;
     }
 
+    .quiz__question__body{
+        /*  background-image: url("https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg");
+          object-fit: contain;
+          max-width: 100%; */
+          background-image: url('https://media.istockphoto.com/photos/question-mark-symbol-drawn-by-purple-neon-light-on-black-wall-picture-id1249090099?k=20&m=1249090099&s=170667a&w=0&h=pg2zl1nt89icF13R4KRevEvDXTNYY77XLvywWElYUjQ=');
+        
+      }
+
 
 
 
@@ -400,8 +408,16 @@
     }
 
     .quiz__question__body{
-        background-image: url("https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg");
+      /*  background-image: url("https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg");
+        object-fit: contain;
+        max-width: 100%; */
+        background-image: url('https://media.istockphoto.com/photos/question-mark-symbol-drawn-by-purple-neon-light-on-black-wall-picture-id1249090099?k=20&m=1249090099&s=170667a&w=0&h=pg2zl1nt89icF13R4KRevEvDXTNYY77XLvywWElYUjQ=');
+      
+    }
+
+
 }
+
 
 
 
@@ -608,4 +624,11 @@ ul li{
     padding-right: 130px ;
 }
 
+.quiz__question__body{
+    /*  background-image: url("https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg");
+      object-fit: contain;
+      max-width: 100%; */
+      background-image: url('https://media.istockphoto.com/photos/question-mark-symbol-drawn-by-purple-neon-light-on-black-wall-picture-id1249090099?k=20&m=1249090099&s=170667a&w=0&h=pg2zl1nt89icF13R4KRevEvDXTNYY77XLvywWElYUjQ=');
+    
+  }
   }
