@@ -263,7 +263,7 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  /background-image: url("https://images5.alphacoders.com/394/thumb-1920-394862.jpg");/
+  background-image: url("https://images5.alphacoders.com/394/thumb-1920-394862.jpg");
 }
 .quiz-container{
   background-color: #fff;
