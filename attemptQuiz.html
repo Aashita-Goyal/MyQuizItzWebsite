@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Profile Page</title>
+    <title>Attempt Quiz Page</title>
     <link rel="stylesheet" href="./CSS/navbar_footer.css">
     <link rel="stylesheet" href="./CSS/new.css">
     <!-- FontAwesome -->
@@ -18,7 +18,7 @@
     />
   </head>
 
-  <body>
+  <body class="attempt__quiz">
     <!--Navbar-->
     <nav class="navbar navbar-expand-md bg-gradient-secondary" id="grad">
       <div class="padLogo padLogo-light ps-4"></div>
@@ -42,6 +42,7 @@
           document.getElementById("mySidenav").style.width = "0";
         }
       </script>
+
 
 
       <div class="container">
@@ -96,22 +97,32 @@
       </div>
     </nav>
 
-    <!--Profile-->
-    <div class="profile__container">
-        <div class="profile__logo">
-            <img src="https://i.pinimg.com/474x/c7/0c/36/c70c3652b86753708079b17e9033c488.jpg"
-                 alt="user profile"
-            />
+
+    <!--Quiz Details-->
+    <div class="attempt__quiz__container">
+        <div class="attempt__quiz__heading">
+            <h2>Quiz Details</h2>
         </div>
-        <div class="profile__info">
-            <div class="your__details"></div>
-            <div class="your__progress"></div>
+        <div class="attempt__quiz__details">
+          <strong>
+          <p>Quiz Topic : </p>
+          <p>Quiz Tags : </p>
+          <p>Quiz Subject : </p>
+          <p>Total Questions : </p>
+        </strong>
+        </div>
+        <div class="quiz__start">
+            <button type="button" class="btn btn-dark">Start Quiz!</button>
+            <strong><p class="pad"><a href="./home.html">Go to home</a></p></strong>
+            <strong><p><a href="./topicPage.html">Choose another quiz</a></p></strong>
         </div>
     </div>
+    
+
+
      <!--Footer-->
      <footer>
         <div class="container-fluid p-lg-3">
-          <br />
         <h5 class="ps-2">Follow Us</h5>
         <!--<a href=""><img src="https://img.icons8.com/ios-glyphs/60/000000/facebook-new.png" class="icons"/></a>
         <a href=""><img src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png" class="icons"/></a>

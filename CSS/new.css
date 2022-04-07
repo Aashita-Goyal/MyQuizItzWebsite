@@ -65,6 +65,49 @@
     margin-left: 190px;
 }
 
+.attempt__quiz__container{
+    padding: 40px;
+}
+
+.attempt__quiz__heading{
+    text-align: center;
+    color: #B67C9A;
+    background-color: #3F3351;
+    height: 50px;
+    width: 600px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.quiz__start{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.quiz__start a{
+    text-decoration: none;
+    color: #864879;
+}
+
+.quiz__start button{
+    font-size: 25px;
+    background-color: #864879;
+    color: #1F1D36;
+    font-weight:500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pad{
+    padding-top: 60px;
+}
+.attempt__quiz__details p{
+    text-decoration: double;
+    margin-left: 180px;
+    font-size: 25px;
+}
+
 
 
 
@@ -142,6 +185,7 @@
         margin-left: 250px;
     }
 
+<<<<<<< HEAD
 /* Quiz */
 *{
     box-sizing: border-box;
@@ -198,4 +242,69 @@
   button:hover{
     background-color: #9a5cb3;
   }
+=======
+    .attempt__quiz__container{
+        padding: 40px;
+    }
+
+    .attempt__quiz__heading{
+        text-align: center;
+        color: #B67C9A;
+        background-color: #3F3351;
+        height: 50px;
+        width: 800px;
+        padding-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 200px;
+    }
+    
+    .quiz__start{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .quiz__start a{
+        text-decoration: none;
+        color: #864879;
+    }
+
+    .quiz__start button{
+        font-size: 25px;
+        background-color: #864879;
+        color: #1F1D36;
+        font-weight:500;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .pad{
+        padding-top: 60px;
+    }
+    .attempt__quiz__details p{
+        text-decoration: double;
+        margin-left: 200px;
+        font-size: 25px;
+    }
+
+    .profile__container{
+
+    }
+    
+    .profile__logo{
+        margin-left: 300px;
+        border-radius: 100px;
+    }
+
+    .profile__logo img{
+        
+    }
+
+    .your__details{
+
+    }
+
+    .your__progress{
+        
+    }
+>>>>>>> 4a931d77ddf38266739e84779f6ef84437910097
 }
