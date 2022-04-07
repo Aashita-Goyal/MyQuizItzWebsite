@@ -592,6 +592,20 @@
         margin-left: 65px;
     }
 
+    .course{
+        margin-top: 250px;
+    }
+
+    .text-box{
+        background-color: #B67C9A;
+        height: 300px;
+        margin-top: 5px;
+    }
+
+    .text-box h1{
+        padding-top: 30px;
+    }
+
 }
 
 
