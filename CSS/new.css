@@ -620,11 +620,12 @@
     }
 
     .quiz__start button{
-        font-size: 25px;
+        font-size: 15px;
         background-color: #864879;
         color: #1F1D36;
         font-weight:500;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 200px;
     }
 
     .pad{
@@ -760,6 +761,10 @@ ul li{
 .option__two__four{
     padding-right: 130px ;
 }
+<<<<<<< HEAD
+}
+}
+=======
 
 .quiz__question__body{
     /*  background-image: url("https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg");
@@ -769,3 +774,4 @@ ul li{
     
   }
   }
+>>>>>>> 20410cfeb58f2c665e0e6b044f489a21b7d78e99
