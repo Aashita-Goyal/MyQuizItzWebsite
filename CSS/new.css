@@ -187,6 +187,60 @@
         
       }
 
+      .profile__container{
+        display: flex;
+    }
+    
+    .profile__logo{
+        border-radius: 100px;
+        padding-left: 25px;
+    }
+
+    .profile__logo img{
+        width: 150px;
+        border-radius: 100px;
+        height: 150px;
+        border-color: #864879;
+        
+    }
+
+
+    .profile__left__section{
+        margin-right: 200px;
+        height: 570px;
+        width: 25%;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .profile__right__section{
+        margin-left: 200px;
+        margin: 10px;
+        padding: 5px;
+        width: 75%;
+    }
+
+    .left__menu{
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .left__menu a{
+        text-decoration: none;
+        color: #1F252F;
+    }
+
+    .your__details{
+        background-image: url("https://barbarashdwallpapers.com/wp-content/uploads/2011/01/Purple-abstract-wallpaper-2-1.jpg");
+        color: white;
+        padding-left: 10px;
+    }
+
+    .your__details strong{
+        margin: 20px;
+        padding-left: 20px;
+    }
+
 
 
 
@@ -345,6 +399,7 @@
         margin: 10px;
         padding: 5px;
         width: 75%;
+        font-size: 20px;
     }
 
     .left__menu{
