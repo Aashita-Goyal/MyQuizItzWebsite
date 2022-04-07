@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Title Name</title>
+  <title>Create Quiz</title>
   <link rel="stylesheet" href="./CSS/navbar_footer.css">
   <link rel="stylesheet" href="./CSS/new.css">
   <!-- FontAwesome -->
@@ -92,6 +92,79 @@
     </div>
   </nav>
 
+  <!--Create Quiz-->
+  <!--Branch, Topic, Keywords/Tags, Total no. of Questions-->
+
+  <div class="create__quiz">
+      <div class="quiz__create__heading"><div class="attempt__quiz__heading">Create a New Quiz</div></div>
+      <div class="quiz__details">
+          <form action="">
+            <br /><br /><br />
+            <label for="branch">Choose a Branch</label>
+            <select id="branch" name="branch">
+              <option value="computer">CS/IT</option>
+              <option value="electronics">EC</option>
+              <option value="electrical">EE/EI</option>
+              <option value="mechatronics">MT</option>
+              <option value="biotechnology">BT</option>
+              <option value="chemical">CE</option>
+            </select>
+            <br /><br />
+            <label for="topic">Quiz Topic</label>
+            <input type="text" id="topic" name="topic" placeholder="enter your quiz topic"><br>
+            <br />
+            <label for="keywords">Keywords/Tags</label>
+            <input type="text" id="topic" name="keywords" placeholder="enter keywords/tags related to topic"><br>
+          </form>
+          <br>
+          <hr>
+          <br>
+      </div>
+      <div class="question__details">
+        <p>Enter Quiz details</p>
+        <div class="question__details__info">
+        <form action="">
+            <br>
+            <label for="questionNumber">Question Number</label>
+            <input type="text" id="questionNumber" name="questionNumber" placeholder="question number">
+            <br><br>
+            <label for="questionNumber">Question</label>
+            <input type="paragraph" id="questionDescription" name="question" placeholder="enter question here">
+            <!--<textarea
+                rows="6"
+                id="questionDescription"
+                placeholder="enter question here"
+              ></textarea>-->
+            <br><br>
+            <label for="answerOption">Option a</label>
+            <input type="paragraph" id="optionA" name="option" placeholder="enter answer here">
+            <br><br>
+            <label for="answerOption">Option b</label>
+            <input type="paragraph" id="optionB" name="option" placeholder="enter answer here">
+            <br><br>
+            <label for="answerOption">Option c</label>
+            <input type="paragraph" id="optionC" name="option" placeholder="enter answer here">
+            <br><br>
+            <label for="answerOption">Option d</label>
+            <input type="paragraph" id="optionD" name="option" placeholder="enter answer here">
+            <br><br>
+            <label for="answer">Choose correct option</label>
+            <select id="Correctanswer" name="answer">
+              <option value="optionA">Option a</option>
+              <option value="optionB">Option b</option>
+              <option value="optionC">Option c</option>
+              <option value="optionD">Option d</option>
+            </select>
+        </form>
+        </div>
+      </div>
+      <div class="quiz__button">
+        <div class="quiz__start">
+        <button type="button" class="btn btn-dark">Create Quiz!</button>
+        </div>
+      </div>
+ </div>
+</div>
   <!--Footer-->
   <footer>
     <div class="container-fluid p-lg-3">
@@ -111,3 +184,10 @@
 </body>
 
 </html>
+
+
+
+<!--<div class="create__quiz__container">
+  <div class="create__quiz__left">Hello left</div>
+  <div class="create__quiz__right">Hello right</div>
+</div>-->

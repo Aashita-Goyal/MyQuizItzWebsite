@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home Page - final and improved</title>
+    <title>Attempt Quiz Page</title>
     <link rel="stylesheet" href="./CSS/navbar_footer.css">
     <link rel="stylesheet" href="./CSS/new.css">
     <!-- FontAwesome -->
@@ -18,7 +18,7 @@
     />
   </head>
 
-  <body>
+  <body class="attempt__quiz">
     <!--Navbar-->
     <nav class="navbar navbar-expand-md bg-gradient-secondary" id="grad">
       <div class="padLogo padLogo-light ps-4"></div>
@@ -42,6 +42,7 @@
           document.getElementById("mySidenav").style.width = "0";
         }
       </script>
+
 
 
       <div class="container">
@@ -95,6 +96,29 @@
       </div>
       </div>
     </nav>
+
+
+    <!--Quiz Details-->
+    <div class="attempt__quiz__container">
+        <div class="attempt__quiz__heading">
+            <h2>Quiz Details</h2>
+        </div>
+        <div class="attempt__quiz__details">
+          <strong>
+          <p>Quiz Topic : </p>
+          <p>Quiz Tags : </p>
+          <p>Quiz Subject : </p>
+          <p>Total Questions : </p>
+        </strong>
+        </div>
+        <div class="quiz__start">
+            <button type="button" class="btn btn-dark">Start Quiz!</button>
+            <strong><p class="pad"><a href="./home.html">Go to home</a></p></strong>
+            <strong><p><a href="./topicPage.html">Choose another quiz</a></p></strong>
+        </div>
+    </div>
+    
+
 
      <!--Footer-->
      <footer>

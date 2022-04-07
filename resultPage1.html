@@ -2,9 +2,10 @@
 <html>
 
 <head>
-    <title>Quiz Page</title>
+    <title>Title Name</title>
     <link rel="stylesheet" href="./CSS/navbar_footer.css">
     <link rel="stylesheet" href="./CSS/new.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
@@ -14,7 +15,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 </head>
 
-<body class="quiz__question__body">
+<body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-md bg-gradient-secondary" id="grad">
         <div class="padLogo padLogo-light ps-4"></div>
@@ -91,43 +92,77 @@
         </div>
         </div>
     </nav>
-    <div class="quiz-container">
-        <div class="quiz-header">
-            <h2>Question</h2>
-            <div class="answer__options">
-            <div class="option__one__three">
-            <ul>
-                <li>
-                    <input type="radio" name="answer" id="a" class="answer">
-                    <label for="a" id="a_text">Answer a</label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="b" class="answer">
-                    <label for="b" id="b_text">Answer b</label>
-                </li>
-            </ul>
-        </div>
 
-            <div class="option__two__four">
-            <ul>
-                <li>
-                    <input type="radio" name="answer" id="c" class="answer">
-                    <label for="c" id="c_text">Answer c</label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="d" class="answer">
-                    <label for="d" id="d_text">Answer d</label>
-                </li>
-            </ul>
+    <div class="container-fluid-main2">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <p id="date"></p>
+                    <script>
+                        document.getElementById("date").innerHTML = Date();
+                    </script>
+                </div>
+                <div class="col-3"></div>
+                <div class="col-2">
+                    <p style="display: flex;">Score:-----</p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-3">
+                    <a href="#" style="text-decoration: none;">
+                        <p>View Result Summary | Review Questions</p>
+                    </a>
+                </div>
+            </div>
         </div>
-        </div>
-        </div>
-        <button id="submit">Submit</button>
     </div>
+
+    <div class="container-fluid-main3">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="https://i.pinimg.com/474x/c7/0c/36/c70c3652b86753708079b17e9033c488.jpg"
+                        alt="user profile" style="height: 150px; width: 150px;"/>
+                    <strong>
+                        <p>Marks Obtained : </p>
+                        <p>Correct Answers : </p>
+                        <p>Incorrect Answers : </p>
+                        <p>Unattempted Questions : </p>
+                        <p>Total Questions : </p>
+                        <p>Percentage obtained : </p>
+                    </strong>
+                    <div class="quiz__start">
+                        <button type="button" class="btn btn-dark"
+                            style="float: left; font-size: 15px;">Reattempt!</button>
+                        <br>
+                        <p>
+                            <strong>
+                                <p class="pad"><a href="home.html">Go to home</a></p>
+                            </strong>
+                            <strong>
+                                <p><a href="topicPage.html">Choose another quiz</a></p>
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6" style="padding-top: 140px;">
+                    <strong>
+                        <p>Starting Time : </p>
+                        <p>Completing Time : </p>
+                        <p>Questions : </p>
+                        <p>Total Points : </p>
+                        <p>Passing Points : </p>
+                        <p>Points Per Question : </p>
+                        <p>Duration : </p>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--Footer-->
     <footer>
         <div class="container-fluid p-lg-3">
-            <br>
+            <br />
             <h5 class="ps-2">Follow Us</h5>
             <!--<a href=""><img src="https://img.icons8.com/ios-glyphs/60/000000/facebook-new.png" class="icons"/></a>
         <a href=""><img src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png" class="icons"/></a>
@@ -138,7 +173,6 @@
             <br>
             <p class="pt-lg-0">© 2022 QuizItz Inc</p>
         </div>
-
     </footer>
 </body>
 
