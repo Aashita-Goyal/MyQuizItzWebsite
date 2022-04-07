@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['email'])){
+        header('location:index.php');
+    }
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -18,69 +24,8 @@
   </head>
   
   <body>
-    <nav class="navbar navbar-expand-md bg-gradient-secondary" style="background-color: #3F3351" id="grad">
-        <div class = "padLogo"></div>
-            <div id="mySidenav" class="sidenav">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <a href="home.html">Home</a>
-              <a href="#">Subjects</a>
-              <a href="#">Create</a>
-              <a href="#">Attempt</a>
-              <a href="#">Profile</a>
-              <a href="about.html">About Us</a>
-              <a href="help.html">Help</a>
-              <a href="contact.html">Contact</a>
-            </div>  
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
-            <script>
-              function openNav() 
-              {
-                document.getElementById("mySidenav").style.width = "250px";
-              }
-              function closeNav() 
-              {
-                document.getElementById("mySidenav").style.width = "0";
-              }
-            </script>
-            <div class="container">
-              <a class="navbar-brand" href="">
-                <h3 class="logo">QuizItz</h3>
-                <!--#655d8a-->
-              </a>
-              <ul class="nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="home.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Help</a>
-                </li>
-              </ul>
-              <ul ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link" href="">Settings
-                  <img src="https://img.icons8.com/small/128/000000/settings.png" class="icons"/>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Profile
-                  <img src="https://img.icons8.com/glyph-neue/64/000000/lifecycle.png" class="icons"/>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Logout
-                  <img src="https://img.icons8.com/ios/100/000000/shutdown--v1.png" class="icons"/>
-                  </a>
-                </li>
-              </ul>
-          </div>
-        </div>
-    </nav>
+    
+  <?php include 'includes/navbar.php'; ?>
 
     <!--Carousel-->
     <div class = "carousel__container">
@@ -221,16 +166,7 @@
     <a href="" class="hero-btn">Contact us</a>
   </section>
 
-    <footer>
-        <div class="container-fluid" >
-            <h5>Follow Us</h5>
-            <a href=""><img src="https://img.icons8.com/ios-glyphs/60/000000/facebook-new.png" class="icons"/></a>
-            <a href=""><img src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png" class="icons"/></a>
-            <a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" class="icons"/></a>
-            <br>
-            <p>© 2022 QuizItz Inc</p>
-        </div>
-    </footer>
+  <?php include 'includes/footer.php'; ?>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
