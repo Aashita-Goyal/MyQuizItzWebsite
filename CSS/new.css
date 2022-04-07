@@ -514,11 +514,12 @@
     }
 
     .quiz__start button{
-        font-size: 25px;
+        font-size: 15px;
         background-color: #864879;
         color: #1F1D36;
         font-weight:500;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 200px;
     }
 
     .pad{
@@ -607,5 +608,5 @@ ul li{
 .option__two__four{
     padding-right: 130px ;
 }
-
-  }
+}
+}

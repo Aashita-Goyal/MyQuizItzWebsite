@@ -337,6 +337,52 @@ button:hover{
 }
 
 
-.main2{
+.container-fluid-main2, .container-fluid-main3{
   padding-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-fluid-main2 p, .container-fluid-main3 p{
+  font-size: 16px;
+}
+
+.nav1{
+  padding-left: 20px;
+}
+
+.nav1 a{
+  color: #73436D;
+}
+
+.nav1 a:hover{
+  background-color: black;
+  color: white;
+}
+
+.avatars{
+  width: 50px;
+  height: 50px;
+}
+
+.quiz__start button{
+  font-size: 25px;
+  background-color: #864879;
+  color: #1F1D36;
+  font-weight:500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pad{
+  padding-top: 60px;
+  padding-left: 0;
+}
+.attempt__quiz__details p{
+  text-decoration: double;
+  margin-left: 200px;
+  font-size: 25px;
+}
+
+.profileLogo{
+  height: 100px;
+  width: 100px;
 }
