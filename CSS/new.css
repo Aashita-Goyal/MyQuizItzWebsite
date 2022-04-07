@@ -241,6 +241,48 @@
         padding-left: 20px;
     }
 
+    .quiz__create__heading{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+
+    #topic{
+        width: 300px;
+    }
+
+    .quiz__details{
+        margin-left: 150px;
+        width: 800px;
+    }
+
+    .question__details p{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        margin-right: 100px;
+    }
+
+    .question__details__info{
+        margin-left: 200px;
+    }
+
+    #questionDescription{
+        width: 400px;
+        height: 80px;
+        text-align: center;
+    }
+
+    .quiz__button{
+        width: 200px;
+        margin-left: 380px;
+    }
+
+    .create__quiz{
+        margin: 20px;
+    }
+
 
 
 
@@ -505,6 +547,50 @@
       
     }
 
+    
+
+    .quiz__create__heading{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+
+    #topic{
+        width: 300px;
+    }
+
+    .quiz__details{
+        margin-left: 200px;
+        width: 800px;
+    }
+
+    .question__details p{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        padding-left: 100px;
+    }
+
+    .question__details__info{
+        margin-left: 200px;
+    }
+
+    #questionDescription{
+        width: 400px;
+        height: 80px;
+        text-align: center;
+    }
+
+    .quiz__button{
+        width: 200px;
+        margin-left: 520px;
+    }
+
+    .create__quiz{
+        margin: 20px;
+        margin-left: 65px;
+    }
 
 }
 
@@ -770,4 +856,10 @@ ul li{
       background-image: url('https://media.istockphoto.com/photos/question-mark-symbol-drawn-by-purple-neon-light-on-black-wall-picture-id1249090099?k=20&m=1249090099&s=170667a&w=0&h=pg2zl1nt89icF13R4KRevEvDXTNYY77XLvywWElYUjQ=');
     
   }
+
+  .create__quiz{
+    margin: 20px;
+    margin-left: 350px;
+    width: 1200px;
+}
   }
