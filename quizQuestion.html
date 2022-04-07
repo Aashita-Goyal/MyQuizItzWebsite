@@ -14,7 +14,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 </head>
 
-<body>
+<body class="quiz__question__body">
     <!--Navbar-->
     <nav class="navbar navbar-expand-md bg-gradient-secondary" id="grad">
         <div class="padLogo padLogo-light ps-4"></div>
@@ -94,24 +94,33 @@
     <div class="quiz-container">
         <div class="quiz-header">
             <h2>Question</h2>
+            <div class="answer__options">
+            <div class="option__one__three">
             <ul>
                 <li>
                     <input type="radio" name="answer" id="a" class="answer">
-                    <label for="a" id="a_text">Answer</label>
+                    <label for="a" id="a_text">Answer a</label>
                 </li>
                 <li>
                     <input type="radio" name="answer" id="b" class="answer">
-                    <label for="b" id="b_text">Answer</label>
+                    <label for="b" id="b_text">Answer b</label>
                 </li>
+            </ul>
+        </div>
+
+            <div class="option__two__four">
+            <ul>
                 <li>
                     <input type="radio" name="answer" id="c" class="answer">
-                    <label for="c" id="c_text">Answer</label>
+                    <label for="c" id="c_text">Answer c</label>
                 </li>
                 <li>
                     <input type="radio" name="answer" id="d" class="answer">
-                    <label for="d" id="d_text">Answer</label>
+                    <label for="d" id="d_text">Answer d</label>
                 </li>
             </ul>
+        </div>
+        </div>
         </div>
         <button id="submit">Submit</button>
     </div>
