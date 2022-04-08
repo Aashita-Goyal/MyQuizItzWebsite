@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Register Page</title>
+    <title>Login Page</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -61,34 +61,53 @@
                 <div class="col-3">
                 </div>
                 <div class="col-6">
-                    <h2 style="text-align: center;" text="white">Register Yourself</h2>
+                    <h2 style="text-align: center;" text="white">Sign In</h2>
                     <br>
 
                     <img src="https://th.bing.com/th/id/OIP.G9FH5pusX4f-JmJ9QaTFbgHaGr?pid=ImgDet&w=2838&h=2557&rs=1" alt="Avatar" class="center">
                     <br>
-                    <label>Name</label>
-                    <input type="text" name="yourname" placeholder="Enter your name"class="form-control"/>
-                    <br>
+<<<<<<< HEAD:login.php
+                    
+                    <form action="scripts/loginscript.php" method="post">
+                <div class="mb-2">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" required="true">
+                </div>
+                <div class="mb-2">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" required="true">
+                </div><br>
+                <input type="submit" name="Login" class="btn btn-outline-light btn-block" value="Login">
+                <a href="forgotpassword.php">forgot password?</a><a href="register.php" style="float: right;">Need an account? Register</a>
+            </form>
+=======
+                    <form action="login.php" method="post">
                     <label>E-mail</label>
-                    <input type="text" name="youremai" placeholder="Enter your email-id"class="form-control"/>
+                    <input type="text" name="youremail" placeholder="Enter your email-id"class="form-control"/>
                     <br>
                     <label>Password</label>
-                    <input type="password" name="password" class="form-control"/>
+                    <input type="password" name="password" placeholder="Enter Password" class="form-control"/>
                     <br>
-                    <label>Confirm Password</label>
-                    <input type="password" name="password" class="form-control"/>
-                    <a href="login.html">
-                        <p style="float: right;">Already have an account? Sign in</p>
+                  </form>
+                    <input type="checkbox" name="cb" value="rm" /> <label>Remember me</label>
+                    <a href="" style="float:right;">
+                        <p class = "link" style="text-align: end; text-decoration: none;">Forgot Password?</p>
                     </a>
+                    <br>
                     <br>
                     <input type="button" 
                     class="btn btn-outline-dark" 
                     value="Login" class="form-control" 
                     style="width: 25%;">
+>>>>>>> 76303c9fee745ee0329ca160e767198aa70e1f04:login.html
+                    <br>
+
                     <br>
                     <br>
                     <br>
-                    <br>
+                    <a href="Register.html"> 
+                        <p class = "link" style="text-align: center;">Don't have account? Register</p>
+                    </a>
                 </div>
                 <div class="col-3">
             </div>
@@ -108,3 +127,42 @@
       </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+<!--<li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Help</a>
+          </li>
+        </ul>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href=""
+              >Settings
+              <img
+                src="https://img.icons8.com/small/128/000000/settings.png"
+                class="icons"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=""
+              >Profile
+              <img
+                src="https://img.icons8.com/glyph-neue/64/000000/lifecycle.png"
+                class="icons"
+            /></a>
+          </li>--> 

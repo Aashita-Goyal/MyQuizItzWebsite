@@ -1,3 +1,11 @@
+<?php
+
+    session_start();
+    if(isset($_SESSION['email'])){
+        header('location:home.php');
+    }
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -18,6 +26,17 @@
 </head>
 
 <body>
+<<<<<<< HEAD:index.php
+  <section class="header">
+
+  <?php include 'includes/navbar1.php'; ?>
+
+    <div class="text-box">
+      <h1>Online learning Platform</h1>
+      <p>With new expert explanations, an AI Learning Assistant and our ever-effective flashcards,<br> get a suite of
+        science-backed study tools at your fingertips.</p>
+      <a href="" class="hero-btn">Get Started </a>
+=======
   <!--Navbar-->
   <nav class="navbar navbar-expand-md bg-gradient-secondary" id="grad">
     <div class="padLogo padLogo-light ps-4"></div>
@@ -31,6 +50,7 @@
       <a href="#">About Us</a>
       <a href="#">Help</a>
       <a href="#">Contact</a>
+>>>>>>> 76303c9fee745ee0329ca160e767198aa70e1f04:index.html
     </div>
     <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
     <script>
@@ -164,6 +184,15 @@
   </p>
 </section>
 
+<<<<<<< HEAD:index.php
+  <section class="cta">
+    <h1>Enroll for our various online courses <br> anywhere from the world</h1>
+    <a href="" class="hero-btn">Contact us</a>
+  </section>
+  
+  <?php include 'includes/footer.php'; ?>
+
+=======
 <section class="cta">
   <h1>Enroll for our various online courses <br> anywhere from the world</h1>
   <a href="" class="hero-btn">Contact us</a>
@@ -185,6 +214,7 @@
     </div>
 
   </footer>
+>>>>>>> 76303c9fee745ee0329ca160e767198aa70e1f04:index.html
 </body>
 
 </html>
