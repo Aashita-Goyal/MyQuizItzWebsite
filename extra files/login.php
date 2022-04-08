@@ -9,7 +9,7 @@
 // $sql="insert into login(email,password) values('sakshit90@gmail.com','sakshilove')";
 // $query=mysqli_query($con,$sql);
 // if($query)
-echo 'data inserted succesfully';
+//echo 'data inserted succesfully';
 
 ?>
 

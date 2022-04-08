@@ -31,7 +31,7 @@
 <body>
   <section class="header">
 
-  <?php include './includes/navbar.php'; ?>
+  <?php include './includes/navbar1.php'; ?>
 
    <!--  <div class="text-box">
       <h1>Online learning Platform</h1>
