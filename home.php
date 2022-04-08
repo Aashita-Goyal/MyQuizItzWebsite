@@ -25,7 +25,7 @@
   
   <body>
     
-  <?php include './includes/navbar.php'; ?>
+  <?php include 'includes/navbar-logout.php'; ?>
 
     <!--Carousel-->
     <div class = "carousel__container">
