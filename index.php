@@ -26,7 +26,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD:index.php
   <section class="header">
 
   <?php include 'includes/navbar1.php'; ?>
@@ -36,21 +35,6 @@
       <p>With new expert explanations, an AI Learning Assistant and our ever-effective flashcards,<br> get a suite of
         science-backed study tools at your fingertips.</p>
       <a href="" class="hero-btn">Get Started </a>
-=======
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-md bg-gradient-secondary" id="grad">
-    <div class="padLogo padLogo-light ps-4"></div>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">Home</a>
-      <a href="#">Subjects</a>
-      <a href="#">Create</a>
-      <a href="#">Attempt</a>
-      <a href="#">Profile</a>
-      <a href="#">About Us</a>
-      <a href="#">Help</a>
-      <a href="#">Contact</a>
->>>>>>> 76303c9fee745ee0329ca160e767198aa70e1f04:index.html
     </div>
     <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
     <script>
@@ -184,7 +168,6 @@
   </p>
 </section>
 
-<<<<<<< HEAD:index.php
   <section class="cta">
     <h1>Enroll for our various online courses <br> anywhere from the world</h1>
     <a href="" class="hero-btn">Contact us</a>
@@ -192,29 +175,6 @@
   
   <?php include 'includes/footer.php'; ?>
 
-=======
-<section class="cta">
-  <h1>Enroll for our various online courses <br> anywhere from the world</h1>
-  <a href="" class="hero-btn">Contact us</a>
-</section>
-
-  <!--Footer-->
-  <footer>
-    <div class="container-fluid p-lg-3">
-      <br />
-      <h5 class="ps-2">Follow Us</h5>
-      <!--<a href=""><img src="https://img.icons8.com/ios-glyphs/60/000000/facebook-new.png" class="icons"/></a>
-        <a href=""><img src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png" class="icons"/></a>
-        <a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" class="icons"/></a>-->
-      <a href=""><img src="https://img.icons8.com/fluency/144/000000/facebook-new.png" class="icons" /></a>
-      <a href=""><img src="https://img.icons8.com/fluency/144/000000/instagram-new.png" class="icons" /></a>
-      <a href=""><img src="https://img.icons8.com/fluency/144/000000/twitter.png" class="icons" /></a>
-      <br>
-      <p class="pt-lg-0">© 2022 QuizItz Inc</p>
-    </div>
-
-  </footer>
->>>>>>> 76303c9fee745ee0329ca160e767198aa70e1f04:index.html
 </body>
 
 </html>

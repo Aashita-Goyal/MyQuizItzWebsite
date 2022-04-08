@@ -7,9 +7,11 @@
     $result = mysqli_query($con, $query);
     if(mysqli_num_rows($result) == 0)
     {
-        ?><script>
-            window.alert("User does not exists!");
-            window.location.href = "http://localhost/MyQuizItzWebsite/login.php";</script><?php
+        ?>
+<script>
+    window.alert("User does not exists!");
+    window.location.href = "http://localhost/MyQuizItzWebsite/login.php";</script>
+<?php
     } else {
     $query = "SELECT password FROM user WHERE email = '$email'";
     $query_result = mysqli_query($con, $query);
@@ -21,14 +23,14 @@
         $result = mysqli_fetch_array($query_result);
         $_SESSION['email'] = $result['email'];
 ?>
-        <script>window.alert("Welcome to QuizItz...");
-            window.location.href = "http://localhost/MyQuizItzWebsite/home.php";
-        </script>
+<script>window.alert("Welcome to QuizItz...");
+    window.location.href = "http://localhost/MyQuizItzWebsite/home.php";
+</script>
 <?php
     } else {
     ?>
-        <script> window.alert("Incorrect password!");
-        window.location.href = "http://localhost/MyQuizItzWebsite/login.php";</script>
+<script> window.alert("Incorrect password!");
+    window.location.href = "http://localhost/MyQuizItzWebsite/login.php";</script>
 <?php
     } 
 }
