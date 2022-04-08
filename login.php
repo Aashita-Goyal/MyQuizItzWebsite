@@ -46,14 +46,14 @@
                     <input type="password" name="password" id="password" class="form-control" required="true">
                 </div><br>
                 <input type="submit" name="Login" class="btn btn-outline-dark btn-block" value="Login">
-                <a href="forgotpassword.php">forgot password?</a><a href="register.php" style="float: right;">Need an account? Register</a>
+                <!--<a href="forgotpassword.php">forgot password?</a><a href="register.php" style="float: right;">Need an account? Register</a>-->
             </form>
                     <br>
 
                     <br>
                     <br>
                     <br>
-                    <a href="Register.html"> 
+                    <a href="register.php"> 
                         <p class = "link" style="text-align: center;">Don't have account? Register</p>
                     </a>
                 </div>
