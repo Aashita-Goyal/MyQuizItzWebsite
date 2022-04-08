@@ -10,12 +10,15 @@
 <html>
 
 <head>
-  <title>Title Name</title>
+  <title>Index</title>
+  
+  
   
   <link rel="stylesheet" href="./CSS/style.css" />
   <link rel="stylesheet" href="./CSS/styleIndexEdited.css">
   <link rel="stylesheet" href="./CSS/navbar_footer.css">
   <link rel="stylesheet" href="./CSS/new.css">
+  
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
@@ -28,9 +31,9 @@
 <body>
   <section class="header">
 
-  <?php include 'includes/navbar1.php'; ?>
+  <?php include './includes/navbar.php'; ?>
 
-    <div class="text-box">
+   <!--  <div class="text-box">
       <h1>Online learning Platform</h1>
       <p>With new expert explanations, an AI Learning Assistant and our ever-effective flashcards,<br> get a suite of
         science-backed study tools at your fingertips.</p>
@@ -78,26 +81,26 @@
           <a class="nav-link" href="">
             <p class="text-light mt-2">Settings<i class="fa-solid fa-gear p-2"></i></p>
             <!--<img src="https://img.icons8.com/small/128/000000/settings.png" class="icons" />-->
-          </a>
+         <!-- </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="profile.html">
             <p class="text-light mt-2">Profile<i class="fa-solid fa-user p-2"></i></p>
 
             <!--<img src="https://img.icons8.com/glyph-neue/64/000000/lifecycle.png" class="icons" />-->
-          </a>
+         <!-- </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.html">
             <p class="text-light mt-2">Logout<i class="fa-solid fa-power-off p-2"></i></p>
 
             <!--<img src="https://img.icons8.com/ios/100/000000/shutdown--v1.png" class="icons" />-->
-          </a>
+         <!-- </a>
         </li>
       </ul>
     </div>
     </div>
-  </nav>
+  </nav> -->
 
 
   <div class="text-box">
