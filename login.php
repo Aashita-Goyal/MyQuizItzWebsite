@@ -66,21 +66,6 @@
 
                     <img src="https://th.bing.com/th/id/OIP.G9FH5pusX4f-JmJ9QaTFbgHaGr?pid=ImgDet&w=2838&h=2557&rs=1" alt="Avatar" class="center">
                     <br>
-<<<<<<< HEAD:login.php
-                    
-                    <form action="scripts/loginscript.php" method="post">
-                <div class="mb-2">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" name="email" id="email" class="form-control" required="true">
-                </div>
-                <div class="mb-2">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" name="password" id="password" class="form-control" required="true">
-                </div><br>
-                <input type="submit" name="Login" class="btn btn-outline-light btn-block" value="Login">
-                <a href="forgotpassword.php">forgot password?</a><a href="register.php" style="float: right;">Need an account? Register</a>
-            </form>
-=======
                     <form action="login.php" method="post">
                     <label>E-mail</label>
                     <input type="text" name="youremail" placeholder="Enter your email-id"class="form-control"/>
@@ -99,7 +84,6 @@
                     class="btn btn-outline-dark" 
                     value="Login" class="form-control" 
                     style="width: 25%;">
->>>>>>> 76303c9fee745ee0329ca160e767198aa70e1f04:login.html
                     <br>
 
                     <br>
