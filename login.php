@@ -9,11 +9,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/new.css" />
+
   </head>
 
   <body>
     
-  <?php include 'includes/navbar.php'; ?>
+  <?php include './includes/navbar-login.php'; ?>
 
     <div class="container-fluid main1"  style="color: black;">
         <div class="container">
@@ -26,6 +28,13 @@
 
                     <img src="https://th.bing.com/th/id/OIP.G9FH5pusX4f-JmJ9QaTFbgHaGr?pid=ImgDet&w=2838&h=2557&rs=1" alt="Avatar" class="center">
                     <br>
+                    <!--<div class="profile__login__section border border-3 border-dark me-5">
+            <div class="profile__logo ms-5">
+                <img src="https://i.pinimg.com/474x/c7/0c/36/c70c3652b86753708079b17e9033c488.jpg"
+                     alt="user profile"
+                     class="avatar__logo border border-3 border-secondary"
+                />
+            </div>-->
                     
                     <form action="scripts/loginscript.php" method="post">
                 <div class="mb-2">

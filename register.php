@@ -48,7 +48,7 @@
               <label for="confirmpassword" class="form-label">Confirm Password</label>
               <input type="password" name="confirmpassword" id="confirmpassword" class="form-control" required="true">
             </div><br>
-            <input type="submit" name="Login" class="btn btn-outline-light btn-block" value="Register">
+            <input type="submit" name="Login" class="btn btn-outline-dark btn-block" value="Register">
             <a href="login.php">Already have an account? Log in</a>
           </form>
           <br>
