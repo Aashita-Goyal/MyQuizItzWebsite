@@ -28,7 +28,7 @@
     </a>
     <ul class="nav me-auto mb-2 mb-lg-0">
       <li class="nav-item">
-        <a class="nav-link" href="home.html">
+        <a class="nav-link" href="home.php">
           <p class="text-light mt-2">Home</p>
         </a>
       </li>
@@ -50,7 +50,7 @@
     </ul>
     <ul ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="profile.html">
           <p class="text-light mt-2">Settings<i class="fa-solid fa-gear p-2"></i></p>
           <!--<img src="https://img.icons8.com/small/128/000000/settings.png" class="icons" />-->
         </a>

@@ -13,12 +13,14 @@
   <title>Register Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/new.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  
 </head>
 
 <body>
 
-<?php include 'includes/navbar.php'; ?>
+<?php include './includes/navbar-login.php'; ?>
 
   <div class="container-fluid main1" style="color: black;">
     <div class="container">
@@ -48,7 +50,7 @@
               <label for="confirmpassword" class="form-label">Confirm Password</label>
               <input type="password" name="confirmpassword" id="confirmpassword" class="form-control" required="true">
             </div><br>
-            <input type="submit" name="Login" class="btn btn-outline-light btn-block" value="Register">
+            <input type="submit" name="Login" class="btn btn-outline-dark btn-block" value="Register">
             <a href="login.php">Already have an account? Log in</a>
           </form>
           <br>
